@@ -1,0 +1,34 @@
+head section
+------------
+
+<!-- nivoslider -->
+    <link rel="stylesheet" href="nivoslider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivoslider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivoslider/themes/dark/dark.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="nivoslider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivoslider/nivo-slider.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js1/html5shiv.js"></script>
+    <script type="text/javascript" src="js1/init.js"></script>
+    <script type="text/javascript" src="js1/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js1/skel-panels.min.js"></script>
+    <script type="text/javascript" src="js1/skel.min.js"></script>
+      <script type="text/javascript" src="nivoslider/jquery.nivo.slider.js"></script>
+      <script type="text/javascript">
+     $(window).load(function() {
+          $('#slider').nivoSlider();
+      });
+      </script>
+
+
+
+
+below slider div
+-----------------
+
+<div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                   <img src="images/sl/08.jpg" data-thumb="images/sl/08.jpg" alt="" />
+                 <img src="images/sl/slider1.jpg" data-thumb="images/sl/slider1.jpg" alt="" />
+                 <img src="images/sl/slider2.jpg" data-thumb="images/sl/slider2.jpg" alt="" />
+               </div>
+            </div>
